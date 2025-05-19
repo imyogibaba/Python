@@ -1,3 +1,43 @@
+print("Create a nested tuple and access and element inside the inner tuple.")
+tup=(1,2,3,4,5)
+print(tup)
+nested=(11,22, (2,4,6,8) ,33,44,55)
+print("Nested tuple:",nested)
+print()
+print("Inside the inner tuple:", nested[2][0])
+print("Inside the inner tuple:", nested[2][1])
+print("Inside the inner tuple:", nested[2][2])
+print("Inside the inner tuple:", nested[2][3])
+
+
+
+print("Convert a string into a tuple of characters.")
+s=input("Enter a string")
+conv=tuple(s)
+print("After converting string into a tuple of characters",conv)
+
+
+print("Find the maximum and minimum values in a tuple of numbers.")
+tup=eval(input("Enter a tuple"))
+print("Maximum value of this tuple is:", max(tup))
+print("Minimum value of this tuple is:", min(tup))
+print("\n")
+
+print("Slice a tuple from index 2 to index5 and display the sub-tuple.")
+a=eval(input("Enter a tuple"))
+print("The sub-tuple from index 2 to 5 are:",a[2:6])
+
+
+print("Write a program to iterate through a touple and print each element.")
+tup=eval(input("Enter a tuple"))
+print("The tuple list is:",tup)
+print("\n")
+
+print("Concatenate two tuples and display the result.")
+a1=eval(input("Enter a tuple"))
+a2=eval(input("Enter a tuple"))
+print("The Concatente of tuple is:",a1+a2)
+print("\n")
 
 
 print("Check whether a particular element exists in a tuple or not.")
